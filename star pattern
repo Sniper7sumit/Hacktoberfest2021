@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{int a,i,j,l;
+printf("Enter the number of rows in star pattern::");
+scanf("%d",&a);
+for(i=1;i<=a;i++)
+{for(j=0;j<a-i;j++)
+printf(" ");
+for(l=1;l<=i;l++)
+{printf("*");
+printf(" ");
+}printf("\n");}
+return 0;}
