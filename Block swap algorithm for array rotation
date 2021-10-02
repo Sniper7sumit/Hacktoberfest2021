@@ -53,4 +53,3 @@ if __name__ == '__main__':
 	leftRotate(arr, 2, 7);
 	printArray(arr, 7);
 
-# This code is contributed by Rohit_ranjan
