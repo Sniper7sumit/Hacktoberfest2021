@@ -1,0 +1,16 @@
+//to find out the value of any number rased to any exponent
+#include<stdio.h>
+int power(int a,int b)
+{int f;
+while(b>0)
+{f=a*power(a,--b);
+return f;}
+if(b==0)
+return 1;
+}
+int main()
+{int a,b;
+printf("Enter a number and it's power::");
+scanf("%d%d",&a,&b);
+printf("The result of %d rased to power %d is::%d",a,b,power(a,b));
+}
