@@ -1,0 +1,19 @@
+/*fabionacci series using recursion*/
+#include<stdio.h>
+int fab(int a)
+{static int m,b,c=1;
+if(a>0)
+{ printf("%d\t",m);
+if(a>1)
+{
+b=c;c=m;m=b+c;
+fab(--a);}
+}return m;
+}
+int main()
+{int a;
+printf("Enter the term of fabionacci you want to print::");
+scanf("%d",&a);
+printf("The %d term of fabionacci is::%d",a,fab(a));
+
+}
