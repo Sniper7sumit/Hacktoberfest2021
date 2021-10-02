@@ -1,0 +1,24 @@
+#include<stdio.h>
+ #include<malloc.h>
+  typedef struct 
+  { int roll; char name[20]; float marks[5], total, avg; }student;
+   int main( ) 
+   { int i, n, x;
+    student *stud;
+	 printf("How many students :: ");
+	  scanf("%d",&n); 
+	  stud=(student *)malloc(n * sizeof(student));
+	  for(i=0;i<n;i++)
+	   { printf("Enter Roll No :: ");
+	    scanf("%d", &stud[i].roll);
+		 fflush(stdin); printf("Enter Name :: ");
+		  scanf("%[^\n]", stud[i].name);
+		   stud[i].total=0; fflush(stdin);
+		    printf("Enter 5 Subjects Marks :: ");
+			 for(x=0; x<5; x++)
+			  { scanf("%f", &stud[i].marks[x]);
+			   stud[i].total += stud[i].marks[x]; }
+			    stud[i].avg=stud[i].total/5.0; }
+				 for(i=0;i<n;i++) 
+				 printf("\nRoll Number :: %d\nName :: %s\nAverage :: %6.2g%%\n", stud[i].roll, stud[i].name, stud[i].avg);
+				  return 0;}
