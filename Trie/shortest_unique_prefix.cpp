@@ -1,6 +1,6 @@
 /* Find shortest unique prefix to represent each word in the list.
 Example:
-Input: N = 4, list[] = [zebra, doll, duck, dove]
+Input: N = 4, list[] = [zebra, doll, duck, doe]
 Output: {z, dol, du, dov}
 Explaination: 
 where we can see that
