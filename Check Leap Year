@@ -15,3 +15,9 @@ if (year % 4 == 0):
        print("{0} is a leap year".format(year))
 else:
    print("{0} is not a leap year".format(year))
+   
+# We can use this also
+# if( year % 400 == 0 || ( year % 4 == 0 && year % 100 != 0 )):
+#    print("{0} is a leap year".format(year))
+#else:
+#    print("{0} is not a leap year".format(year))
