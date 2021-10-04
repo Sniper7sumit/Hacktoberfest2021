@@ -1,0 +1,56 @@
+/*By Harsh Sinha
+
+Intuition: A palindrome string can be assumed as if mirror is placed in
+           between the string so all the character before and after are same.
+           So there can be two possibility for middle point.
+           If length is even then middle point divide into equal half
+           whereas if length of string is odd then one character should
+           overlap with middle point to divide into two equal half.
+           So we will use each character as a middle point and expand
+           left and right to till our left character is equal to right character.
+           For each middle point we have to check for two cases if length can be even of odd.
+        
+
+Time complexity is O(n2); as for each character we are expanding left and right in worst case(if all character are same)
+                          we will traverse all character.
+Space complexity is O(1);
+*/
+
+#include <iostream>
+using namespace std;
+
+ int expandAroundCenter(string s, int left, int right) {
+    
+    while (left>= 0 && right < s.size() && s[left] == s[right]) {
+        left--;
+        right++;
+    }
+    return right - left - 1;
+ }
+
+string longestPalindrome(string s) {
+
+        int n=s.size(),start=0,end=0;
+        for(int i=0;i<n;i++){
+            int length1= expandAroundCenter(s,i,i);// for odd length
+            int length2= expandAroundCenter(s,i,i+1);// for even length
+            int len = max(length1, length2); // taking max length
+            if (len > end - start) {
+                start = i - (len - 1) / 2;
+                end = i + len / 2;
+            }
+        }
+        string ans="";
+        for(int i=start;i<end;i++){
+            ans+=s[i];
+        }
+        return ans;
+}
+
+int main()
+{
+   string s;
+   cin>>s;
+   string ans=longestPalindrome();
+   cout<<ans<<'\n';
+}
