@@ -51,6 +51,6 @@ int main()
 {
    string s;
    cin>>s;
-   string ans=palidrome();
+   string ans=longestPalindrome();
    cout<<ans<<'\n';
 }
