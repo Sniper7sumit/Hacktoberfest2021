@@ -24,7 +24,7 @@
 
    * **This [repository](https://github.com/Sniper7sumit/Hacktoberfest2021) is for beginners who want to be a part of open source community.**
    * **The best way to learn programming is by practicing !**
-   * **This repo contains programs in c, cpp, python programming languages along with Data Structures & Algorithms.**
+   * **This repo contains programs in c, cpp, python programming languages along with DSA.**
    * **You are advised to take references from these examples and try them on your own.**
 
  <br>
@@ -74,6 +74,8 @@
 **Made with ❤ by [contributors-img](https://contrib.rocks).**
 
 **◻ Project Maintainer : Umesh Badsara [LinkedIn](https://www.linkedin.com/in/umesh-badsara-7659581b5/) | [GitHub](https://github.com/Sniper7sumit)**
+
+**◻ Readme Credits : Chayan Debbarma [LinkedIn](https://www.linkedin.com/in/chayan-debbarma/) | [GitHub](https://github.com/Chayan-11)**
 
 ----------------------------------------------------------
 
