@@ -1,6 +1,6 @@
 # <p align="center"> Hacktoberfest 2021 💕</p> 
 
-<h4 align=center> Hacktoberfest is a month-long celebration of Open Source Software which is sponsored by Digital Ocean, GitHub, Intel and Dev.</h4>
+<h4 align=center> Hacktoberfest is a month-long celebration of Open Source Software sponsored by Digital Ocean, GitHub, Intel and Dev.</h4>
 
 <h4 align=center> This repository aims to help beginners 🤔 with their first successful Pull Request and Open Source Contribution !</h4>
  
@@ -74,6 +74,8 @@
 **Made with ❤ by [contributors-img](https://contrib.rocks).**
 
 **◻ Project Maintainer : Umesh Badsara [LinkedIn](https://www.linkedin.com/in/umesh-badsara-7659581b5/) | [GitHub](https://github.com/Sniper7sumit)**
+
+**◻ Readme Credits : Chayan Debbarma [LinkedIn](https://www.linkedin.com/in/chayan-debbarma/) | [GitHub](https://github.com/Chayan-11)**
 
 ----------------------------------------------------------
 
