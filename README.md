@@ -24,7 +24,7 @@
 
    * **This [repository](https://github.com/Sniper7sumit/Hacktoberfest2021) is for beginners who want to be a part of open source community.**
    * **The best way to learn programming is by practicing !**
-   * **This repo contains programs in c, cpp, python programming languages along with Data Structures & Algorithms.**
+   * **This repo contains programs in c, cpp, python, Java programming languages along with DSA.**
    * **You are advised to take references from these examples and try them on your own.**
 
  <br>
