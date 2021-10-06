@@ -1,8 +1,6 @@
 # <p align="center"> Hacktoberfest 2021 💕</p> 
 
-<h4 align=center> Hacktoberfest is a month-long celebration of Open Source Software sponsored by Digital Ocean, GitHub, Intel & Dev.</h4>
-
-</br>
+<h4 align=center> Hacktoberfest is the celebration of Open Source Software sponsored by Digital Ocean, GitHub, Intel & Dev.</h4>
 
 <h4 align=center> This repository aims to help beginners 🤔 with their first successful Pull Request and Open Source Contribution !</h4>
  
