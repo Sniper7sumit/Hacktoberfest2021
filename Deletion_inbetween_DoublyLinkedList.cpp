@@ -1,5 +1,5 @@
 //DELETION OF DLL ELEMENT IN BETWEEN
-//Enter the data as input to delete the DLL 
+//Enter the data as input to delete the element in DLL 
 #include <iostream>
 using namespace std;
 struct node{
