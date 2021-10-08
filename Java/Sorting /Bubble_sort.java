@@ -3,7 +3,7 @@
  * @author Kritika Srivastava
  * @since October 09, 2021
  *
- * Program Description - Selection sort Code
+ * Program Description - Bubble sort Code
  */
 import java.util.Scanner;
 
