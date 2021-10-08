@@ -5,6 +5,12 @@
 #include <algorithm>
 using namespace std;
 
+/*
+   Contributor:Ankit Bhujeja
+   Problem statement: https://www.hackerrank.com/challenges/variable-sized-arrays/problem?isFullScreen=true
+*/
+
+
 int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
     int n,queries;
