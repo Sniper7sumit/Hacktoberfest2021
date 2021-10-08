@@ -3,13 +3,12 @@ using namespace std;
 
 int main() {
   int n;
-
   cout << "Enter an integer: ";
   cin >> n;
-
-  if ( n % 2 == 0)
-    cout << n << " is even.";
+  // Using bitwise operator to check odd/even
+  if(n & 1)
+     cout << n << " is odd";
   else
-    cout << n << " is odd.";
-  
+    cout << n << " is even";
+ return 0; 
 }
