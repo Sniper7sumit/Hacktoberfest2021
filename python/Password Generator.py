@@ -1,5 +1,5 @@
 import random
+import string
 passlen = int(input("enter the length of password"))
-s="abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
-p = "".join(random.sample(s,passlen ))
-print(p)
+ran=''.join(random.choices(string.punctuation + string.digits + string.ascii_letters,k=passlen))
+print(ran)
