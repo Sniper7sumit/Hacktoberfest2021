@@ -1,0 +1,32 @@
+#include <iostream>
+#include<stack>
+#include<cstring>
+using namespace std;
+
+void reverse(char s[]){
+    stack<string> st;
+    for(int i=0;i<strlen(s);i++){
+        string wrd="";
+
+        while(s[i]!=' ' && i<strlen(s)){
+            wrd+=s[i];
+            i++;
+        }
+        st.push(wrd);
+    }
+    cout<<"Reversed String :";
+    //printing reversed sentense
+    while(!st.empty()){
+        cout<<st.top()<<" ";
+        st.pop();
+    }
+}
+int main() {
+    
+    char s[100];
+    cout<<"Enter sentense :";
+    cin.getline(s,100);        //Taking Input
+    
+   reverse(s);
+    return 0;
+}
