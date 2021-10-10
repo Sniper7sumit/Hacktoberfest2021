@@ -1,6 +1,6 @@
 # <p align="center"> Hacktoberfest 2021 💕</p> 
 
-<h4 align=center> Note: This Repo Is Not Count In Hacktober Fest Anymore</h4>
+<p align=center> Note: This Repo Is Not Count In Hacktober Fest Anymore</p>
 
 <h4 align=center> Hacktoberfest is the celebration of Open Source Software sponsored by Digital Ocean, GitHub, Intel & Dev.</h4>
 
