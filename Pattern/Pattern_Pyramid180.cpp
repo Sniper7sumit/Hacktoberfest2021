@@ -1,16 +1,31 @@
-#include<iostream>
+// C++ code to demonstrate star pattern
+#include <iostream>
 using namespace std;
-int main(){
-    cout<<"NO OF ROWS:";
-    int n;
-    cin>>n;
-    for(int i=1;i<=n;i++){
-        for(int j=1;j<=i;j++){
-            cout<<"* ";
 
-        }
-        cout<<endl;
+// Function to demonstrate printing pattern
+void pypart(int n)
+{
+	// Outer loop to handle number of rows
+	// n in this case
+	for (int i = 0; i < n; i++) {
 
-    }
-    return 0;
+		// Inner loop to handle number of columns
+		// values changing acc. to outer loop
+		for (int j = 0; j <= i; j++) {
+
+			// Printing stars
+			cout << "* ";
+		}
+
+		// Ending line after each row
+		cout << endl;
+	}
+}
+
+// Driver Function
+int main()
+{
+	int n = 5;
+	pypart(n);
+	return 0;
 }
