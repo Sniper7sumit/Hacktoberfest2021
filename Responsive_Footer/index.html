@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Animated Footer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff5733, #a83279);
+}
+
+.content {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  animation: slideUp 0.5s ease-in-out;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Optional: Add responsive styles */
+@media only screen and (max-width: 600px) {
+  footer {
+    font-size: 14px;
+  }
+}
+
+</style>
+<body>
+  <div class="content">
+    <h1 style="text-align: center;font-family: 'Times New Roman', Times, serif;margin-top: 300px;">Just a Demonstration for Responsive Footer And animated Footer</h1>
+    <!-- Add your main website content here -->
+  </div>
+  
+  <footer>
+    <p>© 2023 Your Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
